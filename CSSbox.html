@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model </title>
+    <style>
+        .topnav a{
+            position: relativ ;
+            left: 45%;
+            top: 20;
+            color: white;
+            text-decoration: 2px;
+            margin-right: 60px;
+            background-color: black;
+            font-size: larger;
+            font-style: initial;font-weight: 100;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .footer {
+            color: blue;
+            font-style: initial;
+        }
+      
+        img  {
+            width: 942px;
+            height: 143px;
+            border: 1px solid navy;
+            
+        } 
+        .cluom1 img {
+            width: 290px;
+            height: 370px;
+            border: 1px solid navy;
+        }
+        .cluom2 img {
+            width: 290px;
+            height: 370px;
+            border: 1px solid navy;
+        }
+        .cluom3 img {
+             width: 290px;
+            height: 370px;
+            border: 1px solid navy;
+        }
+        
+        
+        h1 {
+            color: rgb(15, 8, 29);
+            background-color: rgb(241, 10, 164);
+            font-style: normal;
+            font-weight: 30;
+            font-style: italic;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+        h2 {
+            color: rgb(20, 20, 20);
+            font-style: inherit;
+            font-weight: 20;
+            background-position: 20px;
+            background-color: rgb(23, 245, 38);
+        }
+    
+        .container {
+            width: 960px;
+            min-height: 420px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto;
+        }
+        .header {
+            width: 942px;
+            height: 150px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 0px auto;
+         }
+         
+        .topnav {
+            width: 942px;
+           height: 50px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto; } 
+         
+        
+        .content {
+            width: 942px;
+           min-height: 420px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto; 
+
+        }
+        .sectionone {
+            width: 295px;
+           height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+        }
+        .sectiontwo {
+            width: 295px;
+           height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+        }
+        .sectiontree {
+            width: 295px;
+           height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+        }
+        .footer {
+            width: 942px;
+           min-height: 80px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto; 
+        }
+       
+        .aniga {
+            width: 942px;
+           min-height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 3px auto; 
+        }
+        .cluom1 {
+            width: 295px;
+           height: 380px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+        } 
+        .cluom2 {
+            width: 295px;
+            height: 380px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+        }
+        .cluom3 {
+            width: 295px;
+            height: 380px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+        }
+        
+
+
+    </style>
+</head> 
+<body>
+   
+    <div class="container">
+        <div class="header">
+            <img src="Djibouti.jpg" alt="sawir tusaale aah">
+        </div>
+        <div class="topnav">
+            |<a href="ok">Home</a>
+            |<a href="ok">About</a>
+            |<a href="ok">Blog</a>
+            |<a href="ok"> Contacts</a>
+    </div>
+    <div class="aniga">
+        <div class="cluom1">
+            <img src="city.jpg" alt="sawir">
+        </div>
+        <div class="cluom2">
+            <img src="daaya.webp" alt="sawir">
+        </div> 
+        <div class="cluom3">
+            <img src="dhaqan.jpg" alt="sawir">
+        </div>
+    </div>
+
+    <div class="content">
+    <div class="sectionone">
+        <h1>   City OF Djibouti</h1>
+        <h2>
+Djibouti is a multi-ethnic town. It has a population of around 603,900 residents
+ (Djiboutians) in 2018, making it by far the largest settlement in the country.
+ISO 3166 code: DJ-DJ
+    </h2>
+            </div>
+    <div class="sectiontwo">
+        <h1>
+            Religion OF Djibouti </h1>
+        <h2>
+            Islam is the religion of the state, according to the constitution.
+             The constitution mandates the government respect all faiths and
+              guarantees equality before the law, regardless of one's religion.  
+              The law does not impose sanctions on those who do not observe 
+              Islamic.</h2>
+    </div>
+    <div class="sectiontree">
+        <h1>
+               culture OF Djibouti
+        </h1>
+        <h2>A multi-ethnic country, Djibouti enjoys a rich, interwoven
+             culture based on tribal traditions. In addition to Afars and Issas,
+              sub-clans like Gadabuursi also inhabit the country. The remaining portion
+               of the population consists of Ethiopians, Europeans and Arabs.
+
+        </h2>
+    </div>
+
+     </div>
+     <div class="footer">
+     prepare :  M : AKRAM
+     <h1>&copy; copy right reserved 2023 </h1>
+     </div>
+    </div>
+</body>
+</html>
